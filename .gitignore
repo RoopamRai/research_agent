@@ -1,0 +1,24 @@
+# .gitignore
+
+# 🛑 NEVER REMOVE THIS - Secrets go here
+.env
+
+# Virtual Environment
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# LangSmith / Agent Storage (if any local sqlite traces form)
+*.sqlite
+*.db
+
+# Agent output reports (so we don't accidentally check in dynamic output)
+*.md
+!README.md
